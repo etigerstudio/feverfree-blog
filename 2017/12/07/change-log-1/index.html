@@ -21,6 +21,8 @@
     <!-- dns prefetch -->
     <meta http-equiv="x-dns-prefetch-control" content="on">
     
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source"/>
+    
     
     
     
@@ -75,7 +77,7 @@
 
     <!-- Merged -->
    
-       <link rel="stylesheet" href="/css/material-style.min.css">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/css/material-style.min.css">
        <!-- Config CSS -->
 
 
@@ -180,7 +182,7 @@
     </style>
 
 
-       <script src="/js/jquery-queue.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/js/jquery-queue.min.js"></script>
    
 
     <!-- UC Browser Compatible -->
@@ -210,7 +212,7 @@
             <a href="/" title="feverfree 退烧">
                 <!-- feverfree 退烧 -->
                 
-                    <img src="/img/logo.png" class="avatar-img" width="195px" height="42px" alt="feverfree">
+                    <img src="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/img/logo.png" class="avatar-img" width="195px" height="42px" alt="feverfree">
                 
             </a>
         </span>
@@ -342,7 +344,7 @@ All fevers are due to be freed.
             <div class="post-toc-wrapper">
                 <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#运维日志"><span class="post-toc-text">运维日志</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#服务器迁移"><span class="post-toc-text">服务器迁移</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#安全性加固"><span class="post-toc-text">安全性加固</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#访问时间优化"><span class="post-toc-text">访问时间优化</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#体验更新"><span class="post-toc-text">体验更新</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#文字提示插件"><span class="post-toc-text">文字提示插件</span></a></li></ol></li></ol>
             </div>
-            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.2.1/css/hint.min.css"><script src="/assets/js/APlayer.min.js"> </script><p>这是本博客第一次更新日志（changelog）, 记录了本博客开发运维的<span style="border-bottom: 1px dashed #389fff;"><span class="hint--top hint--rounded hint--info" aria-label="跟我吉吉国王摇就完了" ontouchstart="">方方面面💃</span></span>。</p>
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.2.1/css/hint.min.css"><p>这是本博客第一次更新日志（changelog）, 记录了本博客开发运维的<span style="border-bottom: 1px dashed #389fff;"><span class="hint--top hint--rounded hint--info" aria-label="跟我吉吉国王摇就完了" ontouchstart="">方方面面💃</span></span>。</p>
 <h2 id="运维日志"><a href="#运维日志" class="headerlink" title="运维日志"></a>运维日志</h2><h3 id="服务器迁移"><a href="#服务器迁移" class="headerlink" title="服务器迁移"></a>服务器迁移</h3><p>feverfree现在平稳地运行在<code>阿里云</code>香港节点。</p>
 <p>feverfree最初是部署在<code>vultr</code>之上的，本以为不限带宽和流量会高枕无忧，事实上是我太天真，大概一个多月的时间之后国内访问带宽变的越来越低，丢包率也越来越高，甚至只有在<span style="border-bottom: 1px dashed #389fff;"><span class="hint--top hint--rounded hint--info" aria-label="移动4G或使用国外代理" ontouchstart="">特定线路</span></span>才能以相当高的延迟和加载时间访问。<br>之后就顺理成章地迁移到了<span style="border-bottom: 1px dashed #389fff;"><span class="hint--top hint--rounded hint--info" aria-label="美团云" ontouchstart="">MOS</span></span>，一顿操作配置之后部署完毕。高枕无忧的我晚上想给<code>大圣</code>看下效果，蓦然回首<code><span style="border-bottom: 1px dashed #389fff;"><span class="hint--top hint--rounded hint--info" aria-label="HTTP" ontouchstart="">80端口</span></span></code>却在灯火阑珊处。于是没有备案就陷入了被光速封禁的尴尬境地。纠结了一阵之后决定暂时先不备案，再次迁出国内。</p>
 <p>这次查了一些资料还是选择了<code><span style="border-bottom: 1px dashed #389fff;"><span class="hint--top hint--rounded hint--info" aria-label="虽然不少被诟病，但也算比较适合我的服务商了" ontouchstart="">阿里云</span></span></code>的香港ECS节点，延迟<span style="border-bottom: 1px dashed #389fff;"><span class="hint--top hint--rounded hint--info" aria-label="相当低" ontouchstart="">60ms左右</span></span>。万万没想到，feverfree最终还是可以稳定运行了。</p>
@@ -485,11 +487,11 @@ All fevers are due to be freed.
 
                     <!-- Import File -->
 
-    <script src="/js/lazyload-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/js/lazyload-js.min.js"></script>
 
 
 
-    <script src="/js/nprogress.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/js/nprogress.min.js"></script>
 
 
 <script type="text/javascript">

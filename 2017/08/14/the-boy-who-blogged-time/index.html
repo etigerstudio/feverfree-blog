@@ -21,6 +21,8 @@
     <!-- dns prefetch -->
     <meta http-equiv="x-dns-prefetch-control" content="on">
     
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source"/>
+    
     
     
     
@@ -75,7 +77,7 @@
 
     <!-- Merged -->
    
-       <link rel="stylesheet" href="/css/material-style.min.css">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/css/material-style.min.css">
        <!-- Config CSS -->
 
 
@@ -180,7 +182,7 @@
     </style>
 
 
-       <script src="/js/jquery-queue.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/js/jquery-queue.min.js"></script>
    
 
     <!-- UC Browser Compatible -->
@@ -195,6 +197,8 @@
 
     <!-- Custom Head -->
     
+<link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
+<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 
 
@@ -210,7 +214,7 @@
             <a href="/" title="feverfree 退烧">
                 <!-- feverfree 退烧 -->
                 
-                    <img src="/img/logo.png" class="avatar-img" width="195px" height="42px" alt="feverfree">
+                    <img src="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/img/logo.png" class="avatar-img" width="195px" height="42px" alt="feverfree">
                 
             </a>
         </span>
@@ -322,7 +326,7 @@ All fevers are due to be freed.
     
         <!-- Custom thumbnail -->
         <div class="post_thumbnail-custom" post>
-            <img src="/assets/album-arts/warsongs.jpg">
+            <img src="https://cdn.jsdelivr.net/gh/etigerstudio/feverfree-blog/assets/album-arts/warsongs.jpg">
     
         </div>
 
@@ -342,7 +346,7 @@ All fevers are due to be freed.
             <div class="post-toc-wrapper">
                 <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#起点"><span class="post-toc-text">起点</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#feverfree简介"><span class="post-toc-text">feverfree简介</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#博主简介"><span class="post-toc-text">博主简介</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#音乐推荐"><span class="post-toc-text">音乐推荐</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#简评"><span class="post-toc-text">简评</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#推荐原因"><span class="post-toc-text">推荐原因</span></a></li></ol></li></ol>
             </div>
-            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.2.1/css/hint.min.css"><script src="/assets/js/APlayer.min.js"> </script><h2 id="起点"><a href="#起点" class="headerlink" title="起点"></a>起点</h2><p>这是feverfree博客的第一篇文章。欢迎你的到来。</p>
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.2.1/css/hint.min.css"><h2 id="起点"><a href="#起点" class="headerlink" title="起点"></a>起点</h2><p>这是feverfree博客的第一篇文章。欢迎你的到来。</p>
 <h3 id="feverfree简介"><a href="#feverfree简介" class="headerlink" title="feverfree简介"></a>feverfree简介</h3><p>我为博客命名为<strong>feverfree</strong>，中文含义为<strong>退烧</strong>，意为从狂热中解脱。<br>feverfree后续的文章主要会包含以下几个类别：</p>
 <ul>
 <li>音乐 单曲推荐、心得分享、乐评等</li>
@@ -353,23 +357,27 @@ All fevers are due to be freed.
 </ul>
 <p>这段时间没有固定的侧重类别和更新频率。<br>当前博客内容还处于起步阶段，后续会逐步在更新文章的同时扩充静态信息、配置插件、优化体验。</p>
 <h3 id="博主简介"><a href="#博主简介" class="headerlink" title="博主简介"></a>博主简介</h3><p>蓝孩纸，95后<code><span style="border-bottom: 1px dashed #389fff;"><span class="hint--top hint--rounded hint--info" aria-label="计算机科学与技术" ontouchstart="">CS</span></span></code>大学生。<br>个人情况更多的描述会后续再发文。<br>博主以<strong>ALuier</strong>署名，派生自星际争霸游戏中的星系名艾尔，<a href="http://starcraft.wikia.com/wiki/Aiur" target="_blank" rel="noopener">Auir</a>。</p>
-<h2 id="音乐推荐"><a href="#音乐推荐" class="headerlink" title="音乐推荐"></a>音乐推荐</h2><div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
-		<script>
-			var ap = new APlayer({
-				element: document.getElementById("aplayer1"),
-				narrow: false,
-				autoplay: false,
-				showlrc: 0,
-				music: {
-					title: "The Boy Who Shattered Time (feat. Mitis)",
-					author: "League of Legends",
-					url: "/assets/tracks/the_boy_who_shattered_time_(feat._mitis)-league_of_legends-warsongs.m4a",
-					pic: "/assets/album-arts/warsongs.jpg",
-				}
-			});
-			window.aplayers || (window.aplayers = []);
-			window.aplayers.push(ap);
-		</script>
+<h2 id="音乐推荐"><a href="#音乐推荐" class="headerlink" title="音乐推荐"></a>音乐推荐</h2>
+        <div id="aplayer-OcNmprOR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-OcNmprOR"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "The Boy Who Shattered Time (feat. Mitis)",
+              author: "League of Legends",
+              url: "https://cdn.jsdelivr.net/gh/etigerstudio/feverfree-blog/assets/tracks/the_boy_who_shattered_time_(feat._mitis)-league_of_legends-warsongs.m4a",
+              pic: "https://cdn.jsdelivr.net/gh/etigerstudio/feverfree-blog/assets/album-arts/warsongs.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
 <p>曲目名 <strong>The Boy Who Shattered Time (feat. Mitis)</strong> / 时间刺客<br>专辑名 Warsongs - 战歌 专辑艺术家 League of Legends - 英雄联盟<br><strong>脑放指数</strong> ★★★★☆</p>
 <h3 id="简评"><a href="#简评" class="headerlink" title="简评"></a>简评</h3><p>收录自LOL官方战歌专辑，起初做为<a href="http://leagueoflegends.wikia.com/wiki/Ekko" target="_blank" rel="noopener">Ekko</a>发布时的专属登录BGM，已经有了几个年头。一首慢热的Electro纯音乐，每次听都会给我带来连贯而沉重的合成器行进感。曲中两次高潮都富有极强的能量感，第一次给我的感觉更多是破釜沉舟的陷阵冲锋，第二次也就是最后一次则是大势已去的萧瑟凄凉之感，宛如一首起伏的诗篇。</p>
 <h3 id="推荐原因"><a href="#推荐原因" class="headerlink" title="推荐原因"></a>推荐原因</h3><ul>
@@ -506,11 +514,11 @@ All fevers are due to be freed.
 
                     <!-- Import File -->
 
-    <script src="/js/lazyload-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/js/lazyload-js.min.js"></script>
 
 
 
-    <script src="/js/nprogress.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hexo-theme-feverfree@0.1.0/source/js/nprogress.min.js"></script>
 
 
 <script type="text/javascript">
